@@ -6,7 +6,7 @@ for (let index = 0; index < numbers.length; index++) {
         if (numbers[index] > largest) {
             secondLargest = largest;
             largest = numbers[index];
-        } else if ( numbers[index] < largest) {
+        } else{
             secondLargest = numbers[index];
         }
     }
